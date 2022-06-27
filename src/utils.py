@@ -34,8 +34,19 @@ def generate_sitemap(app):
     return """
         <div style="text-align: center;">
         <img style="max-height: 80px" src='https://ucarecdn.com/3a0e7d8b-25f3-4e2f-add2-016064b04075/rigobaby.jpg' />
-        <h1>Rigo welcomes you to your API!!</h1>
+        <h1>Welcome to star wars api!!</h1>
         <p>API HOST: <script>document.write('<input style="padding: 5px; width: 300px" type="text" value="'+window.location.href+'" />');</script></p>
-        <p>Start working on your proyect by following the <a href="https://github.com/4GeeksAcademy/flask-rest-hello/blob/master/docs/_QUICK_START.md" target="_blank">Quick Start</a></p>
-        <p>Remember to specify a real endpoint path like: </p>
-        <ul style="text-align: left;">"""+links_html+"</ul></div>"
+        
+        <p>If you want to test this API you can access the following postman workspace where there is a collection ready with each of the requests that can be made to my star wars API: 
+            <a href="https://www.postman.com/bold-rocket-892086/workspace/star-wars-api">
+                https://www.postman.com/bold-rocket-892086/workspace/star-wars-api
+            <a/>
+        <p/>
+        """
+        # <div style="text-align: center;">
+        # <img style="max-height: 80px" src='https://ucarecdn.com/3a0e7d8b-25f3-4e2f-add2-016064b04075/rigobaby.jpg' />
+        # <h1>Rigo welcomes you to your API!!</h1>
+        # <p>API HOST: <script>document.write('<input style="padding: 5px; width: 300px" type="text" value="'+window.location.href+'" />');</script></p>
+        # <p>Start working on your proyect by following the <a href="https://github.com/4GeeksAcademy/flask-rest-hello/blob/master/docs/_QUICK_START.md" target="_blank">Quick Start</a></p>
+        # <p>Remember to specify a real endpoint path like: </p>
+        # <ul style="text-align: left;">"""+links_html+"</ul></div>"
