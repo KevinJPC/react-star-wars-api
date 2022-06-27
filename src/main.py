@@ -110,7 +110,6 @@ def check_session():
     return jsonify({"message": "Session ok", "status": True}), 200
 
 @app.route('/people/page/<int:num_page>', methods=['GET'])
-# https://www.swapi.tech/api/people?page=2&limit=10
 def get_people(num_page):
     query = Character.query.offset(num_page).limit(10)
     
