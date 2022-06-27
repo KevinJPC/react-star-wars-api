@@ -36,15 +36,13 @@ def generate_sitemap(app):
         <img style="max-height: 80px" src='https://ucarecdn.com/3a0e7d8b-25f3-4e2f-add2-016064b04075/rigobaby.jpg' />
         <h1>Welcome to star wars API!!</h1>
         <p>API HOST: <script>document.write('<input style="padding: 5px; width: 300px" type="text" value="'+window.location.href+'" />');</script></p>
-        
+        <p>Some endpoints: </p>
         <ul style="text-align: left;">"""+links_html+"""</ul>
         
-        <p>If you want to test this API you can access the following postman workspace where there is a collection ready with each of the requests that can be made to my star wars API: 
-            <a href="https://www.postman.com/bold-rocket-892086/workspace/star-wars-api">
+        <p>If you want to test this API you can access the following postman workspace where there is a collection ready with each of the requests that can be made to my star wars API: </p>
+        <a href="https://www.postman.com/bold-rocket-892086/workspace/star-wars-api" target="_blank">
                 https://www.postman.com/bold-rocket-892086/workspace/star-wars-api
             <a/>
-        </p>
-        
         </div>
         """
         # <div style="text-align: center;">
