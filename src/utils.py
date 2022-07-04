@@ -37,7 +37,7 @@ def generate_sitemap(app):
         <h1>Welcome to my Star Wars API!!</h1>
         <p>API HOST: <script>document.write('<input style="padding: 5px; width: 300px" type="text" value="'+window.location.href+'" />');</script></p>
         <p>Some endpoints: </p>
-        <ul style="text-align: left;">"""+links_html+"""</ul>
+        <ul style="text-align: center; list-style:none;">"""+links_html+"""</ul>
         
         <p>If you want to test this API you can access the following postman workspace where there is a collection ready with each of the requests that can be made to my star wars API: </p>
         <a href="https://www.postman.com/bold-rocket-892086/workspace/star-wars-api" target="_blank">
